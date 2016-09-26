@@ -1,0 +1,14 @@
+p{
+    color:#00E5EE;
+    float:left;
+}
+
+div p{
+    color:#CC0000;
+    float:right;
+}
+
+*{
+    border:1px solid #3A5FCD;
+}
+

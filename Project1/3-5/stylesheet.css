@@ -1,0 +1,16 @@
+p{
+    color:yellow;
+    float:middle;
+
+}
+
+div p{
+    color:violet;
+    float:left;
+    background-color:blue;
+    position:middle;
+}
+
+*{
+    border:50px solid pink;
+}

@@ -1,0 +1,22 @@
+p{
+    color:blue;
+    float:left;
+    position:relative;
+    margin-top:5px;
+}
+
+div p{
+    color:orange;
+    float:left;
+    position:relative;
+    font-family:Impact;
+    font-size:45px;
+    letter-spacing:10px;
+
+}
+
+*{	
+    border:30px solid yellow;
+}
+
+2

@@ -1,0 +1,22 @@
+p{
+    color:#00E5EE;
+    float:left;
+    background-color:turquoise;
+    font-color:red;
+}
+
+div p{
+    color:#CC0000;
+    float:right;
+    background-color:yellow;
+    font-size:60px;
+    letter-spacing:20px;
+    font-family:Times;
+    font-style:bold;
+}
+
+*{
+    border:100px solid blue;
+    display:middle;
+}
+

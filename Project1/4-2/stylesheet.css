@@ -1,0 +1,19 @@
+p{
+    color:#00E5EE;
+    float:left;
+    font-size:34px;
+    font-color:violet;
+    background-color:blue;
+}
+
+div p{
+    color:#CC0000;
+    float:right;
+    text-align:right;
+    font-family:Arial;
+}
+
+*{
+    border:1px solid #3A5FCD;
+}
+
