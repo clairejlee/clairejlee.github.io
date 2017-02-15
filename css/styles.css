@@ -21,6 +21,9 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Wire+One');
+</style>
+
 a {
     color: rgb(234, 105, 124);
     transition: all .5s ease;
