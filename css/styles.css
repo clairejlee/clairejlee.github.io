@@ -21,8 +21,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Wire+One');
-</style>
+
 
 a {
     color: rgb(234, 105, 124);
@@ -69,7 +68,7 @@ header nav ul {
 
 header nav ul li {
     display: inline-block;
-    font-size: 14px;
+    font-size: 24px;
     margin-left: 1em;
 }
 
