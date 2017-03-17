@@ -3,11 +3,11 @@ html { box-sizing: border-box;}
 * {margin: 0; padding: 0; box-sizing: inherit; }
 
 body {
-    margin: 0; padding:0;
-    font-family: "Chathura", sans-serif;
+    margin:0; padding:0;
+    font-family: "Heebo", sans-serif;
     font-weight: normal;
-    font-size: 30px;
-    line-height: 1.4em;
+    font-size: 15px;
+    line-height: 1.2em;
     color: #000000;
 }
 
@@ -16,9 +16,53 @@ img {
 }
 
 /* Typography */
-h1, h2, h3, h4, h5, h6 {
-    font-family:'Wire One', sans-serif;
+
+footer {
+    font-famiy:'Heebo', sans-serif;
+    font-weight:lighter;
+    font-color:#000000;
+    font-size:11px;
+    text-align:center;
+    right:0;
+    left:0;
+    bottom:0;
+    padding:1rem;
+}
+
+h1 {
+    font-family:'Heebo', sans-serif;
+    font-weight:bold;
+    color:rgb(234, 105, 124);
+}
+
+h3, h4{
+    font-family:'Heebo', sans-serif;
+    font-weight: bold;
+    color:black;
+    }
+
+h6 {
+    font-family:'Heebo', sans-serif;
+    font-weight:lighter;
+    font-color:#e2e0e0;
+    font-size:11px;
+    text-align:left;
+}
+
+h2 {
+    font-family:'Palanquin Dark', sans-serif;
+    font-weight: bold;
+    font-size:24px;
+    text-align:left;
+}
+
+h5{
+    font-family:'Heebo', sans-serif;
     font-weight: normal;
+    font-size:14px;
+    line-height:1.4em;
+    color: #B3B3B3;
+    text-align:right;
 }
 
 
@@ -27,11 +71,14 @@ a {
     color: rgb(234, 105, 124);
     transition: all .5s ease;
     -webkit-transition: all .5s ease;
-    font-size:30px;
+    font-size:14px;
+    text-align:left;
+
 }
 
 p {
     line-height:20px;
+    text-align: left;
 }
 
 /* Header + Navigation */
@@ -45,20 +92,27 @@ header{
     margin: 0;
     padding: 20px;
     width: 100%;
+    background-color:white;
     
 }
 
 
+
 header h1 {
     float: left;
-    font-size:70px;
+    font-size:30px;
     margin-top:25px;
+    margin-bottom:25px;
+    font-family:'Palanquin Dark', sans-serif;
     letter-spacing:1.5px;
 
 }
 
 header nav {
     float: right;
+    margin-top:25px;
+
+
 
 }
 
@@ -68,7 +122,7 @@ header nav ul {
 
 header nav ul li {
     display: inline-block;
-    font-size: 24px;
+    font-size: 12px;
     margin-left: 1em;
 }
 
@@ -80,6 +134,8 @@ header nav ul li a {
 header nav ul li a.active{
     color:black;
 }
+
+
 /* Layout */
 
 .container {
@@ -93,7 +149,7 @@ ul.thumbnails {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
 }
 
 ul.thumbnails li {
