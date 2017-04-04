@@ -4,7 +4,7 @@ html { box-sizing: border-box;}
 
 body {
     margin:0; padding:0;
-    font-family: "Heebo", sans-serif;
+    font-family: "Quicksand", sans-serif;
     font-weight: normal;
     font-size: 15px;
     line-height: 1.2em;
@@ -18,7 +18,7 @@ img {
 /* Typography */
 
 footer {
-    font-famiy:'Heebo', sans-serif;
+    font-famiy:'Quicksand', sans-serif;
     font-weight:lighter;
     font-color:#000000;
     font-size:11px;
@@ -30,19 +30,19 @@ footer {
 }
 
 h1 {
-    font-family:'Heebo', sans-serif;
+    font-family:'Quicksand', sans-serif;
     font-weight:bold;
     color:rgb(234, 105, 124);
 }
 
 h3, h4{
-    font-family:'Heebo', sans-serif;
+    font-family:'Quicksand', sans-serif;
     font-weight: bold;
     color:black;
     }
 
 h6 {
-    font-family:'Heebo', sans-serif;
+    font-family:'Quicksand', sans-serif;
     font-weight:lighter;
     font-color:#e2e0e0;
     font-size:11px;
@@ -57,7 +57,7 @@ h2 {
 }
 
 h5{
-    font-family:'Heebo', sans-serif;
+    font-family:'Quicksand', sans-serif;
     font-weight: normal;
     font-size:14px;
     line-height:1.4em;
