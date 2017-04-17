@@ -84,7 +84,7 @@ a:hover
     background-image: none;
     background-repeat: no-repeat;
     background-position: center bottom;
-    height:20px
+    height:20px;
     width:100px;
     display:block;
 }
